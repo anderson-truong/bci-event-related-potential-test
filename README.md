@@ -1,4 +1,4 @@
-# bci-event-related-potential-test
+# ERP Test
 Testing dsp, feature extraction, and classification with publicly available EEG dataset
 
 [Multi-channel EEG recordings during a sustained-attention driving task (raw dataset)](https://www.nature.com/articles/s41597-019-0027-4)
