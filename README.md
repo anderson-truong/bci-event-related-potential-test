@@ -9,6 +9,11 @@ Testing dsp, feature extraction, and classification with publicly available EEG 
 
 [MNE-Python Install](https://mne.tools/stable/install/manual_install.html#manual-install)
 
+Papers:
+- [A compact multi-branch 1D convolutional neural network for EEG-based motor imagery classification](https://www.sciencedirect.com/science/article/pii/S1746809422009107)
+- [https://iopscience.iop.org/article/10.1088/1741-2552/ac4430/meta](https://iopscience.iop.org/article/10.1088/1741-2552/ac4430/meta)
+- [P300 event-related potential detection using one-dimensional convolutional capsule networks](https://www.sciencedirect.com/science/article/pii/S0957417421001421)
+
 Create a new conda environment named "bci-test"
 ```
 conda create --strict-channel-priority --channel=conda-forge --name=bci-test mne-base h5io h5py pymatreader numpy matplotlib jupyterlab
