@@ -1,4 +1,4 @@
-# bci-event-related-potential-test
+# ERP Test
 Testing dsp, feature extraction, and classification with publicly available EEG dataset
 
 [Multi-channel EEG recordings during a sustained-attention driving task (raw dataset)](https://www.nature.com/articles/s41597-019-0027-4)
@@ -6,3 +6,12 @@ Testing dsp, feature extraction, and classification with publicly available EEG 
 [Datasets](https://figshare.com/articles/dataset/Multi-channel_EEG_recordings_during_a_sustained-attention_driving_task_preprocessed_dataset_/7666055/3)
 
 [Matlab guide](https://figshare.com/articles/dataset/Multi-channel_EEG_recordings_during_a_sustained-attention_driving_task/6427334/5?file=14252852)
+
+[MNE-Python Install](https://mne.tools/stable/install/manual_install.html#manual-install)
+
+Create a new conda environment named "bci-test"
+```
+conda create --strict-channel-priority --channel=conda-forge --name=bci-test mne-base h5io h5py pymatreader numpy matplotlib jupyterlab
+conda activate bci-test
+jupyter-lab
+```
